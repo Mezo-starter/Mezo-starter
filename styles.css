@@ -1,0 +1,369 @@
+/* //////////////Duplicatess//////////// */
+html{
+    scroll-behavior: smooth;
+    /* background-color: black; */
+}
+body{
+    overflow-x: hidden;
+    /* background-color: black; */
+}
+.logo-text, .logo{
+    background-size: cover;
+    background-position: center;
+    filter: invert(100%);
+}
+.articles-header{
+    position: absolute;
+
+}
+.services{
+    list-style: none;
+    padding: 0 0vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 1.3vw;
+    /* margin-top: 20px; */
+    
+}
+li{
+    width: fit-content;
+    margin: 0px 0vw;
+    padding: 0px 1vw;
+    /* transform: translate(38vw, -2vh); */
+    white-space: nowrap;
+    
+}
+p{
+    transition: 0.5s;
+}
+.universe-heading:hover{
+    font-size: 1.5vw;
+    transition: 0.5s;
+}
+::selection{
+    color: rgb(255, 255, 255);
+    background-color:lightskyblue;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: royalblue;
+    transition: 0.5s;
+}
+a:hover{
+    color: skyblue;
+    font-size: 17.9px;
+}
+.universe-img:hover, .galaxy-img:hover, .neutron-star-img:hover, .black-hole-img:hover, .nebula-img:hover{
+    width: 17.5vw;
+    height: 26vh;
+    border-radius: 10px;
+    filter: contrast(105%) brightness(115%) saturate(110%);
+    transition: 0.5s;
+}
+/* ///////////////////////////////////// */
+/* Nav bar */
+.logo{
+    background-image: url(imgs/galaxy-logo.png);
+    margin-left: 20px;
+    width: 10.5vw;
+    height: 10vh;
+    position: absolute;
+    transition: 0.25s;
+}
+.logo-text{
+    background-image: url(imgs/galaxy-text-logo.png);
+    min-width: 11.5vw;
+    min-height: 4vh;
+    transform: translate(95%, 20%);
+    position: absolute;
+    top: 25px;
+    left: 0%;
+    margin-top: -10px;
+    transition: 0.5s;
+}
+.header{
+    /* display: none; */
+    margin: 0 0px;
+    width: 100%;
+    height: 34px;
+    position: relative;
+    /* z-index: 1; */
+    opacity: 1;
+}
+.top-header{
+    width: 100%;
+    height: 55px;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(27deg, rgba(0,0,0,1) 0%, rgba(38,49,88,1) 37%, rgba(42,73,115,1) 65%, rgba(82,110,144,1) 100%); */
+    /* display: flex;
+    flex-direction: row; */
+}
+.bottom-header{
+    /* background-color: #09162a; */
+    width: fit-content;
+    height: 20px;
+    z-index: 1001;
+    position: sticky;
+    top: 2vh;
+    transform: translate(45vw, -2vh);
+}
+/* ///////////////////////////////////////// */
+/* body */
+body{
+    /* width: clamp(200px, 50%, 100%); */
+    background-color: #eee;
+    z-index: -1;
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+.qoute{
+    /* background-color: black; */
+    /* background-image: url("imgs/layered-waves-haikei\ \(3\).svg"); */
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    transition: 0.65s;
+}
+.qoute q{
+    transition: 0.65s;
+}
+.qoute q:hover{
+    font-size: 18px;
+}
+.container{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(30,40,92);
+    background: radial-gradient(circle, rgba(30,40,92,1) 0%, rgba(38,49,88,1) 50%, rgba(15,23,43,1) 100%, rgba(82,110,144,1) 100%);
+}
+/*****************************Hero****************************/
+.introduction{
+    width: 50%;
+    height: 100%;
+    flex: 0 0 50%;
+    padding: 10px;
+    position: absolute;
+    transition: 0.5s;
+    /* background: white; */
+}
+.introduction h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    z-index: 1001;
+    padding-left: 50px;
+    transform: translateY(-50%);
+    /* padding: 30px; */
+}
+.introduction p{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    z-index: 1001;
+    padding-left: 50px;
+    transform: translateY(-50%);
+    /* padding: 30px; */
+}
+.Hero{
+    position: relative;
+    height: 88vh;
+    width: 100%;
+}
+.Hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+.background-hero{
+    position: relative;
+    flex: 0 0 50%;
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: right;
+    left: 50%;
+    /* transform: translate(50); */
+    /* background: rgb(233, 105, 0); */
+}
+.hero-img{
+    background: url("imgs/undraw_starry_window_ppm0.svg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 250px;
+    transition: 0.5s;
+    z-index: 50;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    left: 70%;
+    transform: translate(-50%, 50%);
+    transition: 0.5s;
+}
+/* ****************************88UNIVERSE**********************88 */
+.universe, .galaxy, .neutron-star, .black-hole, .nebula{
+    width: clamp(200px, 100%, 100%);
+    height: 93vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.universe-info, .galaxy-info, .neutron-star-info, .black-hole-info, .nebula-info{
+    width: 40vw;
+    /* margin: 50px 0 0px 110px; */
+    /* transform: translate(0%, 20vh); */
+    font-size: 1.1vw;
+    line-height: 1.5;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+}
+.universe-img, .galaxy-img, .neutron-star-img, .black-hole-img, .nebula-img{
+    /* background-image: url(https://astronomy.com/-/media/Images/Magazine%20Articles/2021/01/ASYDE0121_06.jpg?mw=1000&mh=800); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    width: 15vw;
+    height: calc(100vh/5);
+    border-radius: 5%;
+    /* margin-right: 110px; */
+    transform: translate(10vw, 0);
+    transition: 0.65s;
+}
+.universe-img{
+    background-image: url(https://astronomy.com/-/media/Images/Magazine%20Articles/2021/01/ASYDE0121_06.jpg?mw=1000&mh=800);
+}
+.universe-background{
+    /* background: rgb(36,92,136);
+    background: linear-gradient(27deg, rgba(36,92,136,1) 0%, rgba(143,200,205,1) 42%, rgba(118,163,179,1) 58%, rgba(0,81,138,1) 100%); */
+    background-image: url("imgs/layered-waves-haikei\ \(4\).svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+    filter: saturate(120%);
+    z-index: -1;
+}
+.card{
+    transform: translate(0%, 20vh);
+    /* background-color: rgba(0, 89, 255, 0.1); */
+    height: fit-content;
+}
+.custom-shape-divider-top-1637929679 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.custom-shape-divider-top-1637929679 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 100vw);
+    height: 250px;
+}
+
+.custom-shape-divider-top-1637929679 .shape-fill {
+    fill: #203372;
+}
+.custom-shape-divider-top-1637929679:hover{
+    transition: 1s;
+    width: calc(100% + 70vw);
+    overflow-x: hidden;
+}
+/* *****************************************8 */
+.galaxy-img{
+    background-image: url(https://m.media-amazon.com/images/I/71i3zSC2d3L._AC_SX679_.jpg);
+}
+.galaxy-background{
+    background-image: url("imgs/stacked-waves-haikei.svg");
+    /* background: rgb(0,0,0);
+    background: linear-gradient(27deg, rgba(0,0,0,1) 0%, rgba(38,49,88,1) 37%, rgba(42,73,115,1) 65%, rgba(82,110,144,1) 100%); */
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+    filter: grayscale(100%);
+    z-index: -1;
+}
+/* ***************Neutron Stars*************** */
+.neutron-star-img{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.e8SE-hB30IDHR7zm8ztPdwHaHa&pid=Api&P=0&w=300&h=300);
+}
+.neutron-star-background{
+    background-image: url("imgs/blurry-gradient-haikei.svg");
+    /* background: rgb(0,0,0);
+    background: linear-gradient(27deg, rgba(0,0,0,1) 0%, rgba(38,49,88,1) 60%, rgba(37,77,131,1) 100%, rgba(82,110,144,1) 100%);    background-position: center; */
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+    filter: saturate(120%);
+    z-index: -1;
+}
+/* ****************Black-holes**************8 */
+.black-hole-img{
+    background-image: url(https://news.artnet.com/app/news-upload/2021/03/m87_lo_april11_polarimetric_average_image_ml_deband-cc-8bit-srgb.jpg);
+}
+.black-hole-background{
+    background-image: url("imgs/symbol-scatter-haikei.svg");
+    /* background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,1)), url(https://images.hdqwalls.com/download/black-hole-my-1366x768.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+    filter: saturate(120%);
+    z-index: -1;
+}
+/* *************Nebulas*****************8 */
+.nebula-img{
+    background-image: url(https://img.posterlounge.co.uk/images/l/1897437.jpg);
+}
+.nebula-background{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2), rgba(0,0,0,1)), url(https://media.npr.org/assets/img/2016/05/16/istock_000068588675_full_wide-08f4003d4700b3f2d1a32e208cea0988459161a1-s1100-c50.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+    filter: saturate(120%);
+    z-index: -1;
+}
