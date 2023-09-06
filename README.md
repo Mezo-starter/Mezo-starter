@@ -1,3 +1,0 @@
-- @Mezoinnit
-- Android developer
-- currently learning kotlin
